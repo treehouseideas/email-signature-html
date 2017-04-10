@@ -1,0 +1,381 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="NetReC@ - Email sig-Generate!" name="description">
+	<meta content="paolo.veedor@iigwireless.com" name="author">
+	<link href="../../docs-assets/ico/favicon.png" rel="shortcut icon">
+
+	<title>NetReC@ - Email sig-Generate!</title>
+	<link href="css/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
+	<script src="https://use.fontawesome.com/3e3e6c1364.js">
+	</script>
+</head>
+
+<body>
+	<header class="hidden"></header>
+
+	<section id="instructions">
+		<div>
+			<a href="#" style="text-decoration:none;"><h2>Instructions:</h2></a>
+
+			<ol>
+				<li>Enter your information (type-in all fields. DO <strong>NOT</strong> use auto-fill)</li>
+				<li>The signature will be generated. Using the 'Select Signature' button will allow you to copy-paste.</li>
+			</ol>
+			<br>
+			<div class="panel-group">
+			  <div class="panel panel-default">
+			    <div class="panel-heading">
+			      <h4 class="panel-title">
+			        <a data-toggle="collapse" href="#info-panel"><i class="fa fa-question-circle"></i> More Info</a>
+			      </h4>
+			    </div>
+			    <div id="info-panel" class="panel-collapse collapse">
+			      <ul class="list-group">
+			        <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#html-export">Instructions for HTML export <i class="fa fa-external-link"></i></a></li>
+			        <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#outlook-export">Instructions for Outlook <i class="fa fa-external-link"></i></li>
+			        <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#gmail-export">Instructions for Gmail <i class="fa fa-external-link"></i></li>
+			      </ul>
+			    </div>
+			  </div>
+			</div>
+
+		</div>
+	</section>
+	<section class="google-map hidden">
+    <div>
+      <tr class="hidden">
+        <td>
+        </td>
+        <td>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.661355950913!2d-117.87779648479167!3d33.7952421806766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd778dc422839%3A0x6753c515f9ca6e14!2s2200+W+Orangewood+Ave%2C+Orange%2C+CA+92868!5e0!3m2!1sen!2sus!4v1490809478080" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+          </iframe>
+        </td>
+      </tr>
+    </div>
+  </section>
+
+	<div class="col-md-3">
+		<!-- INPUT -->
+		<section id="input-box">
+			<hr>
+			<a href="#" style="text-decoration:none;"><h2>Your Information:</h2></a>
+
+			<div class="panel panel-info">
+				<div class="panel-heading">
+					<h3 class="panel-title">Please enter the following:</h3>
+				</div>
+
+
+				<div class="panel-body">
+					<div id="inputs">
+						<table>
+							<tbody>
+								<tr>
+									<td><label for="name">Name:</label>
+									</td>
+									<td><input id="name" placeholder="John Doe">
+									</td>
+								</tr>
+
+
+								<tr>
+									<td><label for="position">Position:</label>
+									</td>
+
+									<td><input id="position" placeholder="Office Specialist">
+									</td>
+								</tr>
+
+
+								<tr>
+									<td><label for="phone">Phone:</label>
+									</td>
+
+									<td><input id="phone" placeholder="888-888-8888 x123">
+									</td>
+								</tr>
+
+
+								<tr>
+									<td><label for="cell">Cell phone:</label>
+									</td>
+
+									<td><input id="cell" placeholder="888-555-1212" type="tel">
+									</td>
+								</tr>
+
+
+								<tr class="hidden">
+									<td><label for="fax">Fax:</label>
+									</td>
+
+									<td><input id="fax" placeholder="888-666-6666" type="tel">
+									</td>
+								</tr>
+
+
+								<tr>
+									<td><label for="email">Email:</label>
+									</td>
+
+									<td><input id="email" placeholder="john.doe@netreca.com">
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+				<button class="reset pull-right hidden"><i class="fa fa-window-close"></i> RESET Form</button>
+			</div>
+
+		</section>
+	</div>
+	<div class="col-md-9">
+		<!-- OUTPUT -->
+		<section id="output-box">
+			<hr>
+			<a href="#" style="text-decoration:none;"><h2>Signatures:</h2></a>
+
+			<!-- Signature_1 -->
+			<div class="sig-panel hidden" id="sig-01">
+				<hr>
+				<h4 style="font-size:small;">Logo Left-side with big font</h4>
+				<div class="controls" data-sig="signature_1">
+	        <button class="select pull-right">Select Signature</button><br><br>
+					<button class="save pull-right">Generate HTML</button> <a target="_blank">Show HTML</a>
+				</div>
+
+				<div id="signature_1_container">
+					<table cellpadding="0px;" cellspacing="0" id="signature_1">
+						<tbody>
+							<tr>
+								<td rowspan="3" style="white-space: nowrap; padding: 10px 8px 0 0; border-right:solid 2px #93c0f8; text-align:right; line-height: 18px; width:99px; height:33px;">
+									<img src="netreca-logo.png" style="width: 240px; padding-left: 10px;"><br>
+
+
+									<div class="hidden" style="color: #111; font-weight: 600; font-family:Helvetica, Arial, sans-serif; font-size:11px; padding-bottom: 10px;">
+										SOLAR · LIGHTS · PURE FUEL
+									</div>
+
+
+									<div style="color: #969696; font-family:Helvetica, Arial, sans-serif; font-size:11px;">
+										"WE DO NOT SELL SERVICES, WE PROVIDE TECHNOLOGIES."
+									</div>
+								</td>
+
+								<td style="padding-left:10px; color:#555; font-family:Helvetica, Arial, sans-serif; font-size:large; line-height:16px;">
+									<span class="name" style="color:#2781f2; font-weight:bold;">John Doe</span> - <span class="position">Office Specialist</span><br>
+									<span style="display: inline-block; margin-right: 4px; color:#2781f2; font-weight: bold;"><i class="fa fa-phone"></i></span> <span class="phone">888-888-8888 x123</span> <span style="display: inline-block; margin: 0 3px; color:#2781f2; font-weight: bold;"><i class="fa fa-mobile-phone"></i></span> <span class="cell">888-555-1212</span><br>
+
+
+									<div class="hidden">
+										<span style="display: inline-block; margin-right: 4px; color:#2781f2; font-weight: bold;"><i class="fa fa-fax"></i></span> <span class="fax">(888) 666-6666</span><br>
+									</div>
+									<span style="white-space:nowrap"><span style="display: inline-block; margin-right: 2px; color:#2781f2; font-weight: bold;"><i class="fa fa-envelope"></i></span> <a class="email" href="mailto:john.doe@netreca.com" style="color: #555; text-decoration:none !important;">john.doe@netreca.com</a></span><br>
+									<span style="white-space:nowrap"><span style="display: inline-block; margin-right: 2px; color:#2781f2; font-weight: bold;"><i class="fa fa-globe"></i></span> <a href="http://www.netreca.com" style="font-family: Helvetica, Arial; line-height: 18px; color: #555; text-decoration:none !important;">www.netreca.com</a></span><br>
+									<!-- Social media links -->
+
+
+									<div style="margin-top: 4px; display: none;">
+										<a href="https://twitter.com/pureenergiesUS" style="width:20px; height: 20px;"><img alt="Twitter" src="http://pureenergies.com/us/files/2014/04/twitter.png"></a> <a href="https://www.facebook.com/pureenergies" style="width:20px; height: 20px;"><img alt="Facebook" src="http://pureenergies.com/us/files/2014/04/fb.png"></a> <a href="https://www.linkedin.com/company/pure-energies" style="width:20px; height: 20px;"><img alt="LinkedIn" src="http://pureenergies.com/us/files/2014/04/linkedin.png"></a> <a href="https://plus.google.com/105035082847538286780/posts" style="width: 20px; height: 20px;"><img alt="Google+" src="http://pureenergies.com/us/files/2014/04/google.png"></a> <a href="http://www.youtube.com/user/oneblockoffthegrid" style="width: 20px; height: 20px;"><img alt="YouTube" src="http://pureenergies.com/us/files/2014/04/youtube.png"></a> <a href="http://www.pinterest.com/pureen/" style="width: 20px; height: 20px;"><img alt="Pinterest" src="http://pureenergies.com/us/files/2014/04/pinterest.png"></a>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+			<!-- Signature_2 -->
+			<div class="sig-panel" id="sig-02">
+				<hr>
+				<h4 style="font-size:small;">Logo Top-side with slogan:</h4>
+				<div class="controls" data-sig="signature_2">
+					<button class="select pull-right">Select Signature</button><br><br>
+					<button class="save pull-right">Generate HTML</button> <a target="_blank">Show HTML</a>
+				</div>
+
+				<div id="signature_2_container">
+	        <div id="signature_2" style="text-size-adjust: none !important; -ms-text-size-adjust: none !important; -webkit-text-size-adjust: none !important;">
+
+	          <p style="font-family: Helvetica, Arial, sans-serif; font-size: 10px; line-height: 12px; margin-bottom: 10px;">
+	            <a style="text-decoration:none" href="https://htmlsig.com/t/000001CF54YN">
+	              <img src="http://www.netreca.com/wp-content/uploads/2016/06/NetReCa_Logo_w280.png" alt="" border="0" width="160" height="37">
+	            </a>
+	          </p>
+
+	          <p style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px; color: rgb(33, 33, 33); margin-bottom: 10px; margin-left: 31px;"><span class="name" style="font-size:large; font-weight: bold; color: rgb(33, 33, 33); display: inline;">Elon Musk</span>
+	            <span style="display: inline;"><span class="red-divider"> | </span></span><span class="position" style="color: rgb(33, 33, 33); display: inline;">CEO, Inventor</span>
+	            <span style="display: inline; padding: 40px;"><br></span>
+	          </p>
+
+	          <p style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; line-height: 14px; color: rgb(33, 33, 33); margin-bottom: 10px; margin-left: 31px;">
+	            <span style="display: inline;"></span> <a href="" style="color: rgb(71, 124, 204); text-decoration: none; display: inline;"><span  class="appleLinksBlack" style="color: rgb(33, 33, 33); display: inline;"><a href="https://goo.gl/maps/iKnd83jYhdH2" target="_blank" style="color: black; text-decoration: none; display: inline;">2200 W. Orangewood Ave., #140, Orange, CA 92868</span></a>
+	            <span style="color: rgb(33, 33, 33); display: inline;"><br>Office: </span><a class="phone" href="tel:" style="color: rgb(0, 0, 0); text-decoration: none; display: inline;"><span  class="phone appleLinksBlack" style="color: rgb(33, 33, 33); display: inline;">000-000-0000 x100</span></a>
+	            <span style="color: rgb(33, 33, 33); display: inline;"><span class="red-divider"> | </span></span><span style="color: rgb(0, 0, 0); display: inline;">Direct: </span><a class="cell" href="tel:" style="color: rgb(0, 0, 0); text-decoration: none; display: inline;"><span class="cell" style="color: rgb(33, 33, 33); display: inline;">000-000-0000</span></a>
+	          </p>
+
+	          <p style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; line-height: 12px; margin-bottom: 10px; margin-left: 31px;">
+	            <span style="font-weight: bold; color: #212121;"></span>
+	            <a class="email" href="mailto:elon.musk@netreca.com" style="color: rgb(213, 31, 48); text-decoration: none; display: inline;">elon.musk@netreca.com</a><span style="display: inline;"><span class="red-divider"> | </span></span><a href="http://www.netreca.com" style="color: rgb(213, 31, 48); text-decoration: none; display: inline;">www.netreca.com</a>
+	          </p>
+
+	          <p style="font-size: 0px; line-height: 0; font-family: Helvetica, Arial, sans-serif;"></p>
+	          <p style="font-family: Helvetica, Arial, sans-serif; font-size: 10px; line-height: 12px; margin-bottom: 10px;"></p>
+	          <p style="font-family: Helvetica, Arial, sans-serif; color: #212121; font-size: 9px; line-height: 12px;"></p>
+	          <p style="font-family: Helvetica, Arial, sans-serif; font-size: 10px; line-height: 12px; margin-bottom: 10px; margin-left: 31px; color: #969696; font-style: oblique; padding-top: 4px;">"WE DO NOT SELL SERVICES, WE PROVIDE TECHNOLOGIES."</p>
+
+
+	        </div>
+				</div>
+
+			</div>
+		</section>
+	</div>
+
+	<footer class="hidden">
+		<div class="panel-footer pull-right">Maintained by: <a href="mailto:paolo.veedor@iigwireless.com" style="text-decoration:none !important;"><i class="fa fa-envelope"></i> paolo.veedor@iigwireless.com</a></div>
+	</footer>
+
+	<!-- Modals -->
+	<section id="modals" class="">
+		<div id="html-export" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+
+			  <!-- Modal content-->
+			  <div class="modal-content">
+					<div class="modal-header">
+					  <button type="button" class="close" data-dismiss="modal">&times;</button>
+					  <h4 class="modal-title">Prepare the HTML signature file:</h4>
+					</div>
+					<div class="modal-body">
+
+							<ol>
+								<li>Click "Generate HTML" next to signature.</li>
+								<li>Click "Show HTML".</li>
+								<li>Your browser should open a new window with the HTML signature.</li>
+								<li>Save this new window ('File' -> 'Save As') as a HTML file.</li>
+							</ol>
+
+					</div>
+					<div class="modal-footer">
+					  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div id="outlook-export" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+
+			  <!-- Modal content-->
+			  <div class="modal-content">
+					<div class="modal-header">
+					  <button type="button" class="close" data-dismiss="modal">&times;</button>
+					  <h4 class="modal-title">Instructions for Outlook:</h4>
+					</div>
+					<div class="modal-body">
+						<h3>Create a blank signature in Outlook:</h3>
+							<ol>
+								<li>Go to "Tools" menu and select "Options" (if you don't have a "Tools" menu, go to "File" -&gt; "Options)</li>
+								<li>Go to "Mail Format" tab (alternatively, "Mail" option on the left)</li>
+								<li>Click "Signatures" button</li>
+								<li>Click "New" button</li>
+								<li>Enter <b>"netreca-signature"</b>for the name of your signature</li>
+								<li>Click "OK" to save the new signature</li>
+								<li>Click "OK" again to close signature editing window</li>
+								<li>Click "OK" again to close options window</li>
+							</ol>
+
+
+						<h3>Install our custom signature: Find Outlook signatures folder:</h3>
+							<ol>
+								<li>Click Start</li>
+								<li>In the "Run" input (it's normally the little input box at the bottom of start menu), enter "%APPDATA%" and hit "Enter" (alternatively, if you don't have that option in start menu you can start it with keyboard shortcut Windows+R)A folder should open. <i>If it didn't, try doing the same and entering "%APPDATA%\" into the input box.</i></li>						<li>In the folder that opened, if you have a "Microsoft" folder - open it. Otherwise, if you have "Roaming" folder - look in it, there should "Microsoft" folder in it.</li>
+								<li>In "Microsoft" folder, open "Signatures" folder".</li>
+								<li>Copy the saved HTML file into that folder (from your downloads folder, should be open since step 1 of this guide).</li>
+							</ol>
+
+						<h3>Set our custom signature as default:</h3>
+							<ol>
+								<li>Go to "Tools" menu and select "Options" (if you don't have a "Tools" menu, go to "File" -&gt; "Options)</li>
+								<li>Go to "Mail Format" tab (alternatively, "Mail" option on the left)</li>
+								<li>Click "Signatures" button<i>You should see your fancy new signature now.</i></li>
+								<li>On the right side of this window, under "Choose default signature" select "NRG_signature" in both "new messages" and "replys/forwards" dropdowns.</li>
+								<li>Click "OK" to save</li>
+								<li>Click "OK" again to close options window</li>
+							</ol>
+
+						<h3>Test to make sure it works:</h3>
+							<ol>
+								<li>Create a new email</li>
+								<li>Verify your fancy new signature is already included</li>
+								<li>Congrats! You should have the email signature show by default.</li>
+							</ol>
+					</ol>
+
+					</div>
+					<div class="modal-footer">
+					  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div id="gmail-export" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+
+			  <!-- Modal content-->
+			  <div class="modal-content">
+					<div class="modal-header">
+					  <button type="button" class="close" data-dismiss="modal">&times;</button>
+					  <h4 class="modal-title">Instructions for Gmail:</h4>
+					</div>
+					<div class="modal-body">
+
+						<h3>Adding the signature to Gmail:</h3>
+						<ol>
+							<li>Click "Select this signature" next to desired one</li>
+							<li>Copy with Ctrl+C (or Cmd+C on Mac)</li>
+							<li>In your gmail, click the rotary icon (right below profile picture)</li>
+							<li>Click "settings" from drop-down menu</li>
+							<li>Scroll down to "Signature" section</li>
+							<li>Click in the text editor box for signature</li>
+							<li>Paste with Ctrl+V (or Cmd+V on Mac), or right-click -&gt; "Paste"</li>
+							<li>Scroll to the bottom of the page and click "Save"</li>
+							<li>Click "Compose" to verify your new signature works.</li>
+						</ol>
+						<p>Below is a quick gif that illustrates the steps above.</p>
+						<img class="img-responsive" src="http://i.imgur.com/DH82U74.gif">
+
+					</div>
+					<div class="modal-footer">
+					  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- jQuery v2.1.3 -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">	</script>
+
+	<!-- Bootstrap core -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- Custom JS -->
+	<script src="js/index.js"></script>
+
+</body>
+</html>
